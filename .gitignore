@@ -1,0 +1,23 @@
+# node_modules y dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de entorno y claves
+.env
+
+# Archivos de datos generados por el scraper
+raw.json
+children_text.json
+
+# Salidas temporales o de usuario
+*.csv
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Salidas de Playwright
+playwright-report/
+test-results/
